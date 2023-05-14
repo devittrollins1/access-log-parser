@@ -8,13 +8,13 @@ public class Main {
         int secondNumber = new Scanner(System.in).nextInt();
 
         int addition = firstNumber + secondNumber;
-        System.out.println(addition);
+        System.out.println("Сумма: " + addition);
         int subtraction = firstNumber - secondNumber;
-        System.out.println(subtraction);
+        System.out.println("Разность: " + subtraction);
         int multiplication = firstNumber * secondNumber;
-        System.out.println(multiplication);
+        System.out.println("Произведение: " + multiplication);
         double division = (double) firstNumber / secondNumber;
-        System.out.println(division);
+        System.out.println("Частное: " + division);
 
     }
 
